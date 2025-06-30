@@ -79,9 +79,12 @@ class Sistema_de_Gestao_Escolar():
             
         self.label_alunos = CTkLabel(self.frame_esquerdo, text='ALUNOS', font=('Time', 40, 'bold'))
         self.label_alunos.pack(pady=40)
+        
+        self.frame_alunos = CTkScrollableFrame(self.frame_esquerdo)
+        self.frame_alunos.pack(fill='both', expand=True)
             
         for aluno in alunos:
-            aluno_button = CTkButton(self.frame_esquerdo, text=f'   {aluno["nome"]}', anchor='w', font=('Time', 15, 'bold'), height=44, width=440, fg_color='#212121', command=lambda aluno=aluno: self.abrir_aluno(aluno))
+            aluno_button = CTkButton(self.frame_alunos, text=f'   {aluno["nome"]}', anchor='w', font=('Time', 15, 'bold'), height=44, width=440, fg_color='#212121', command=lambda aluno=aluno: self.abrir_aluno(aluno))
             aluno_button.pack(pady=3, anchor='w', expand=True, padx=30, fill='x')
             
         self.footer = CTkFrame(self.frame_esquerdo, fg_color='#1A1A1A', height=50)
