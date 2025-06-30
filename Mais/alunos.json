@@ -1,0 +1,57 @@
+[
+    {
+        "nome": "Alice Silva",
+        "email": "alice@gmail.com",
+        "senha": "senha123"
+    },
+    {
+        "nome": "Bruno Souza",
+        "email": "bruno@gmail.com",
+        "senha": "senha456"
+    },
+    {
+        "nome": "Carla Lima",
+        "email": "carla@gmail.com",
+        "senha": "senha789"
+    },
+    {
+        "nome": "Daniel Costa",
+        "email": "daniel@gmail.com",
+        "senha": "senha101"
+    },
+    {
+        "nome": "Eva Pereira",
+        "email": "eva@gmail.com",
+        "senha": "senha102"
+    },
+    {
+        "nome": "Henrique da Silva",
+        "email": "henrique@gmail.com",
+        "senha": "aluno234"
+    },
+    {
+        "nome": "SIlvano Tonny",
+        "email": "silva@mail.com",
+        "senha": "aluno678"
+    },
+    {
+        "nome": "Henrique Tony",
+        "email": "tony@gmail.com",
+        "senha": "aluno567"
+    },
+    {
+        "nome": "Rique Silva",
+        "email": "rique@gmail.com",
+        "senha": "aluno4567"
+    },
+    {
+        "nome": "Antonio Silva",
+        "email": "antiny@gmail.com",
+        "senha": "aluno678"
+    },
+    {
+        "nome": "Lena SIlva",
+        "email": "lnea@gmail.com",
+        "senha": "asdf"
+    }
+]
