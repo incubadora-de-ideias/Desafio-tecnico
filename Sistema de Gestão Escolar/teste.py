@@ -60,7 +60,7 @@ alunos = [
 ]
 
 for aluno in alunos:
-    ficheiro = f'Notas/{aluno['nome'].strip()}.json'
+    ficheiro = f"Notas/{aluno['nome'].strip()}.json"
         
     data = [
             {"disciplina": "Matemática", "nota": 0},
