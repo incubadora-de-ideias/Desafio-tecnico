@@ -49,6 +49,16 @@ Desenvolver um sistema simples de gestão escolar com controle de acesso por per
 
 ---
 
+## 🚀 Submissão do Desafio
+
+Todos os candidatos devem **criar uma branch neste repositório com o seguinte padrão de nome:**  
+`nome-sobrenome`  
+Exemplo: `joao-silva`  
+
+Todas as respostas devem ser colocadas nesta branch.
+
+---
+
 ## 💡 Nota Importante
 
 Embora os requisitos acima sirvam como base, o candidato tem total liberdade para aplicar boas práticas, padrões de projeto, bibliotecas ou recursos adicionais que considere adequados.
