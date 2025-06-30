@@ -1,0 +1,21 @@
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\bin\Debug\net6.0-windows\ecubadora e empresas-Afonso.exe
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\bin\Debug\net6.0-windows\ecubadora e empresas-Afonso.deps.json
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\bin\Debug\net6.0-windows\ecubadora e empresas-Afonso.runtimeconfig.json
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\bin\Debug\net6.0-windows\ecubadora e empresas-Afonso.dll
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\bin\Debug\net6.0-windows\ecubadora e empresas-Afonso.pdb
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\bin\Debug\net6.0-windows\MySql.Data.xml
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.csproj.AssemblyReference.cache
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora_e_empresas_Afonso.Form1.resources
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.csproj.GenerateResource.cache
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.AssemblyInfoInputs.cache
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.AssemblyInfo.cs
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.csproj.CopyComplete
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.dll
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\refint\ecubadora e empresas-Afonso.dll
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.pdb
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora e empresas-Afonso.genruntimeconfig.cache
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ref\ecubadora e empresas-Afonso.dll
+C:\Users\FAMILIA FINDA\Documents\Csharp\afonsoVungula\ecubadora e empresas-Afonso\ecubadora e empresas-Afonso\obj\Debug\net6.0-windows\ecubadora_e_empresas_Afonso.tela_principal.resources
