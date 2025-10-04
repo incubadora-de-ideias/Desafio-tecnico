@@ -8,5 +8,8 @@ export const db = mysql.createPool({
     user:process.env.DB_USER || "root",
     password:process.env.DB_PASSWORD || "",
     database:process.env.DB_DATABASE ||"TaskFlow",
-    port: Number(process.env.DB_PORT) || 3000
+    port: Number(process.env.DB_PORT) || 3306,
 });
+db.getConnection()
+  .then(() => console.log("✅ Conectado ao MySQL com sucesso!"))
+  .catch((err) => console.error("❌ Erro ao conectar ao MySQL:", err));
