@@ -1,24 +1,88 @@
 import { Request, Response } from "express";
-import { db } from "../config/db.js";
-import { error as err } from "console";
+import {
+    criarTarefa,
+    listaTarefas,
+    atualizarTarefa,
+    deletarTarefa,
+    Tarefa
+} from "../models/Tarefa.js"
 
-export async function  getTasks(req: Request, res: Response) {
+export async function criarTarefaController(req: Request, res: Response){
     try {
-        const [rows] = await db.query("SEKECT * FROM tarefa");
-        res.json(rows);
-    } catch (err) {
-        res.status(500).json({error: "Erro ao buscar tarefas"});
+        const usuario_id = (req as any).user.id;
+        const {titulo, descricao, status, data_limite} = req.body;
+
+        if(!titulo || !descricao){
+            return res.status(400).json({erro: "Título e descrição são obrigatórios."})
+        }
+
+        const tarefa: Tarefa = {
+            titulo,
+            descricao,
+            status,
+            data_limite,
+            usuario_id,
+        };
+
+        const id = await criarTarefa(tarefa);
+        res.status(201).json({mensagem: "Tarefa Criada com sucesso :)", id})
+    } catch (erro:any) {
+        console.error("Erro ao criar tarefas:", erro);
+        res.status(500).json({erro: "Erro interno ao criar tarefa."})
     }
 }
 
-export async function criarTarefa(req: Request, res: Response) {
-    const {titulo, descricao} = req.body;
-    try {
-        const [result] = await db.query(
-            "INSERT INTO tarefa (tilulo, descricao) VALUES (?, ?)", [titulo, descricao]
-        );
-        res.status(201).json({message: "Tarefa criada", id: (result as any).insertId});
-    } catch (err) {
-        res.status(500).json({error: "Erro ao criar tarefa"})
+export async function listarTarefasController(req: Request, res: Response) {
+  try {
+    const usuario_id = (req as any).user.id;
+    const tarefas = await listaTarefas(usuario_id);
+    res.status(200).json(tarefas);
+  } catch (erro: any) {
+    console.error("Erro ao listar tarefas:", erro);
+    res.status(500).json({ erro: "Erro interno ao listar tarefas." });
+  }
+}
+
+export async function atualizarTarefaController(req: Request, res: Response) {
+  try {
+    const usuario_id = (req as any).user.id;
+    const { id } = req.params;
+    const { titulo, descricao, status, data_limite } = req.body;
+
+    if (!id) {
+      return res.status(400).json({ erro: "ID da tarefa é obrigatório." });
     }
+
+    const tarefa: Tarefa = {
+      id: Number(id),
+      titulo,
+      descricao,
+      status,
+      data_limite,
+      usuario_id,
+    };
+
+    await atualizarTarefa(tarefa);
+    res.status(200).json({ mensagem: "Tarefa atualizada com sucesso!" });
+  } catch (erro: any) {
+    console.error("Erro ao atualizar tarefa:", erro);
+    res.status(500).json({ erro: "Erro interno ao atualizar tarefa." });
+  }
+}
+
+export async function deletarTarefaController(req: Request, res: Response) {
+  try {
+    const usuario_id = (req as any).user.id;
+    const { id } = req.params;
+
+    if (!id) {
+      return res.status(400).json({ erro: "ID da tarefa é obrigatório." });
+    }
+
+    await deletarTarefa(Number(id), usuario_id);
+    res.status(200).json({ mensagem: "Tarefa excluída com sucesso!" });
+  } catch (erro: any) {
+    console.error("Erro ao deletar tarefa:", erro);
+    res.status(500).json({ erro: "Erro interno ao deletar tarefa." });
+  }
 }
